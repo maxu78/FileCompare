@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  context-path: /compare
+
+spring:
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
+
+
+
